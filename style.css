@@ -6,7 +6,30 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: aliceblue;
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: #3a43bd;
+  color: #ffff;
+  position: fixed;
+  padding-left: 10px;
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  margin-top: 80px;
 }
 
 .container {
@@ -17,8 +40,8 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  color: #333;
+h2 {
+  color: #3a43bd;
   text-align: center;
 }
 
@@ -41,7 +64,7 @@ textarea {
 
 input[type="submit"] {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #3a43bd;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -49,5 +72,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #555;
+  background-color: #1619cf;
 }

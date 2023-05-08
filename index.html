@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>HelpDesk Luqueta</title>
-    <body>
-        <div class="container">
-          <h1>Abertura de Chamado</h1>
-          <form>
-            <label for="cliente">Cliente:</label>
-            <input type="text" id="cliente" name="cliente" required>
-      
-            <label for="sistema">Sistema:</label>
-            <input type="text" id="sistema" name="sistema" required>
-      
-            <label for="modulo">Módulo:</label>
-            <input type="text" id="modulo" name="modulo" required>
-      
-            <label for="tipo-manutencao">Tipo de Manutenção:</label>
-            <select id="tipo-manutencao" name="tipo-manutencao" required>
-              <option value="">Selecione...</option>
-              <option value="corretiva">Corretiva</option>
-              <option value="preventiva">Preventiva</option>
-              <option value="melhoria">Melhoria</option>
-            </select>
-      
-            <label for="sla">Tempo para Manutenção (SLA):</label>
-            <input type="text" id="sla" name="sla" required>
-      
-            <label for="titulo">Título:</label>
-            <input type="text" id="titulo" name="titulo" required>
-      
-            <label for="descricao">Descrição:</label>
-            <textarea id="descricao" name="descricao" required></textarea>
-      
-            <input type="submit" value="Abrir Chamado">
-          </form>
-        </div>
-      </body>
-      </html>
+</head>
+<body>
+    <header>
+        <h1>HelpDesk</h1>
+      </header>
+  <div class="container">
+    <h2>Abertura de Chamado</h2>
+    <form>
+      <label for="cliente">Cliente:</label>
+      <input type="text" id="cliente" name="cliente" required>
+
+      <label for="sistema">Sistema:</label>
+      <input type="text" id="sistema" name="sistema" required>
+
+      <label for="modulo">Módulo:</label>
+      <input type="text" id="modulo" name="modulo" required>
+
+      <label for="tipo-manutencao">Tipo de Manutenção:</label>
+      <select id="tipo-manutencao" name="tipo-manutencao" required>
+        <option value="">Selecione...</option>
+        <option value="corretiva">Corretiva</option>
+        <option value="preventiva">Preventiva</option>
+        <option value="melhoria">Melhoria</option>
+      </select>
+
+      <label for="sla">Tempo para Manutenção (SLA):</label>
+      <input type="text" id="sla" name="sla" required>
+
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" required></textarea>
+
+      <input type="submit" value="Abrir Chamado">
+    </form>
+  </div>
+</body>
+</html>
