@@ -57,9 +57,16 @@ label {
 
 input[type="text"],
 select,
-textarea {
+textarea{
+  resize: vertical;
   width: 100%;
   padding: 5px;
+}
+
+select {
+  width: 102.5%;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -74,3 +81,5 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #1619cf;
 }
+
+  
