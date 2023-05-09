@@ -82,4 +82,14 @@ input[type="submit"]:hover {
   background-color: #1619cf;
 }
 
+table{
+  border-collapse: collapse;
+  width: 200%;
+
+
+}
+
+td,tr{
+  border: 3px solid #1619cf;
+}
   
