@@ -20,12 +20,44 @@ header {
   right: 0;
   height: 60px;
   display: flex;
+  flex-direction: row;
   align-items: left;
   justify-content: left;
 }
 
+.menu-itens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-itens li{
+ margin: 0;
+ margin-left: 50px;
+ margin-right: 30px;
+}
+
+.menu-itens a{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.35rem;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}
+
+.menu-itens a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(146, 156, 165);
+  font-size: 1.35rem;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}
+
 h1 {
   margin: 0;
+  margin-top: 13px;
 }
 
 .container {
@@ -82,14 +114,18 @@ input[type="submit"]:hover {
   background-color: #1619cf;
 }
 
-table{
+table {
+  margin-bottom: 668px;
   border-collapse: collapse;
-  width: 200%;
-
-
+  width: 100%;
+  width: 2560px;
 }
-
-td,tr{
+.titulo{
+  font-weight: bolder;
+  font-size: large;
+}
+td, tr {
+  font-size: large;
+  background-color: rgb(212, 202, 202);
   border: 3px solid #1619cf;
 }
-  

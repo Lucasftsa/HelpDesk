@@ -8,9 +8,15 @@
     <title>HelpDesk Luqueta</title>
 </head>
 <body>
-    <header>
-        <h1>HelpDesk</h1>
-      </header>
+  <header>
+    <h1>HelpDesk</h1>
+    <nav>
+      <ul class="menu-itens">
+          <li><a href="index.html">Abrir Chamado</a></li>
+          <li><a href="status.html">Relatório</a></li>
+      </ul>
+    </nav>
+  </header>
   <div class="container">
     <h2>Abertura de Chamado</h2>
     <form>
@@ -18,17 +24,28 @@
       <input type="text" id="cliente" name="cliente" required>
 
       <label for="sistema">Sistema:</label>
-      <input type="text" id="sistema" name="sistema" required>
+      <select name="sistema" id="sistema" required>
+        <option value="">Selecione...</option>
+        <option value="Palald">Palald Cars</option>
+      </select>
 
       <label for="modulo">Módulo:</label>
-      <input type="text" id="modulo" name="modulo" required>
+      <select id="modulo" name="modulo" required>
+        <option value="">Selecione...</option>
+        <option value="Principal">Principal</option>
+        <option value="Novos">Novos</option>
+        <option value="Semi-Novos">Semi-Novos</option>
+        <option value="Cadastro">Cadastro</option>
+        <option value="Rodape">Rodapé</option>
+      </select>
       
       <label for="tipo-manutencao">Tipo de Manutenção:</label>
       <select id="tipo-manutencao" name="tipo-manutencao" required>
         <option value="">Selecione...</option>
         <option value="corretiva">Corretiva</option>
         <option value="preventiva">Preventiva</option>
-        <option value="melhoria">Melhoria</option>
+        <option value="adaptativa">Adaptativa</option>
+        <option value="evolutiva">Evolutiva</option>
       </select>
 
       <label for="sla">Tempo para Manutenção (SLA):</label>
